@@ -24,3 +24,11 @@ Step 7- Play Again: After a game ends player should have a option to play again 
 Developer -
 
 The program has been developed and pushed.
+
+Tester -
+
+There are some bugs in the program which the developer should resolve.
+
+  1. The code does not work properly if the same letter is entered twice.
+
+  2. All the letters of the unknown words should be lowercase or uppercase.
