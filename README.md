@@ -37,3 +37,8 @@ There are some bugs in the program which the developer should resolve.
 Developer -
 
 The errors told by the Tester have been fixed and the code has been pushed.
+
+
+Tester -
+
+There is no option for play again.
