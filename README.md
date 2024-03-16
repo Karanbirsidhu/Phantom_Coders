@@ -19,3 +19,8 @@ Step 5- Ending Conditions: The game ends in two cases either when the word is gu
 Step 6- Win/Lose: If the word is guessed correctly before the hangman is fully drawn, the guesser(s) win. If the hangman is fully drawn before the word is guessed, the guesser(s) lose.
 
 Step 7- Play Again: After a game ends player should have a option to play again or end the game.
+
+
+Developer -
+
+The program has been developed and pushed.
