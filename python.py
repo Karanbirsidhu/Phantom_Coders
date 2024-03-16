@@ -1,5 +1,4 @@
 import random
-
 THE_GREAT_HANGMAN = ['''
     +---+
          |
@@ -38,8 +37,7 @@ THE_GREAT_HANGMAN = ['''
        ===''']
 
 def pick_car():
-    cars = ["Ferrari_GTC4Lusso", "Lamborghini_Huracan", "Bugatti_Veyron", "McLaren_Speedtail", "Porsche_911_Roadster", "Aston_Martin_Vantage", "Koenigsegg_Agera", "Pagani_Imola", "Ferrari_SF90_Stradale", "Lamborghini_Aventador", "Bugatti_Chiron", "McLaren_P1", "Porsche_918_Spyder", "Aston_Martin_Valkyrie", "Koenigsegg_Jesko", "Pagani_Huayra", "RollsRoyce_Boatail"]
-
+    cars = ["ferrari_gtc4lusso", "lamborghini_huracan", "bugatti_veyron", "mclaren_speedtail", "porsche_911_roadster", "aston_martin_vantage", "koenigsegg_agera", "pagani_imola", "ferrari_sf90_stradale", "lamborghini_aventador", "bugatti_chiron", "mclaren_p1", "porsche_918_spyder", "aston_martin_valkyrie", "koenigsegg_jesko", "pagani_huayra", "rollsroyce_boatail"]
     return random.choice(cars)
 
 def display_car(car, guessed_letters):
@@ -63,6 +61,9 @@ def hangman():
     while True:
         guess = input("Guess a letter: ").lower()
 
+        if guess in guessed_letters:
+            print("You've already guessed that letter!")
+            continue
 
         guessed_letters.append(guess)
 
@@ -85,5 +86,3 @@ def hangman():
             break
 kk=0
 hangman()
-
-

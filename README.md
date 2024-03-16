@@ -32,3 +32,8 @@ There are some bugs in the program which the developer should resolve.
   1. The code does not work properly if the same letter is entered twice.
 
   2. All the letters of the unknown words should be lowercase or uppercase.
+
+
+Developer -
+
+The errors told by the Tester have been fixed and the code has been pushed.
