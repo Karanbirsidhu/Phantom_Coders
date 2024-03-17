@@ -42,3 +42,8 @@ The errors told by the Tester have been fixed and the code has been pushed.
 Tester -
 
 There is no option for play again.
+
+
+Developer -
+
+The code has been fixed and pushed.

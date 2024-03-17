@@ -1,4 +1,5 @@
 import random
+
 THE_GREAT_HANGMAN = ['''
     +---+
          |
@@ -84,5 +85,12 @@ def hangman():
         if "_" not in displayed_car:
             print("Congratulations! You've guessed the car:",car)
             break
+        
+    ch=input("Do you want to play again(y/n):")
+    if ch.lower()=="y":
+        hangman()
+    else:
+        None
 kk=0
 hangman()
+
